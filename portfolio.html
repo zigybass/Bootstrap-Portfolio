@@ -10,33 +10,24 @@
 
 <style>
 
+body {
+        background-image: url(french.png)
+    }
+
 .container {
         border-style: solid;
         border-width: 1px;
         border-color: darkgray;
-        
+        border-radius: 1%;
         margin-top: 30px;
+        padding: 20px;
     }
     .containerImg {
         margin: 20px;
     }
 
     img {
-        width: 85%;
-    }
-
-    .containerImg button {
-        position: absolute;
-        width: 85%;
-        height: 40px;
-        bottom: 20%;
-        right: 15%;
-        background-color: darkgrey;
-        color: white;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-}
+        width: 100%;
     }
 
 </style>
@@ -50,11 +41,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -75,13 +66,13 @@
                     <column class="col-6">
                         <div class="containerImg">
                             <img class="tile" src="cat.jpg" class="image-fluid" alt="cat">
-                            <button>Project 1</button>
+                            <button type="button" class="btn btn-secondary btn-lg btn-block">Project 1</button>
                         </div>
                     </column>
                     <column class="col-6">
                         <div class="containerImg">
                                 <img class="tile" src="cat.jpg" class="image-fluid" alt="cat">
-                                <button>Project 1</button>
+                                <button type="button" class="btn btn-secondary btn-lg btn-block">Project 2</button>
                             </div>
                     </column>
                 </row>
@@ -89,13 +80,13 @@
                         <column class="col-6">
                             <div class="containerImg">
                                 <img class="tile" src="cat.jpg" class="image-fluid" alt="cat">
-                                <button>Project 1</button>
+                                <button type="button" class="btn btn-secondary btn-lg btn-block">Project 3</button>
                             </div>
                         </column>
                         <column class="col-6">
                             <div class="containerImg">
                                     <img class="tile" src="cat.jpg" class="image-fluid" alt="cat">
-                                    <button>Project 1</button>
+                                    <button type="button" class="btn btn-secondary btn-lg btn-block">Project 4</button>
                                 </div>
                         </column>
                 </row>
@@ -103,7 +94,7 @@
                     <column class="col-6">
                         <div class="containerImg">
                             <img class="tile" src="cat.jpg" class="image-fluid" alt="cat">
-                            <button>Project 1</button>
+                            <button type="button" class="btn btn-secondary btn-lg btn-block">Project 5</button>
                         </div>
                     <column class="col-6"></column>
                 </row>
