@@ -24,21 +24,38 @@ h2 {
         border-width: 1px;
         border-color: darkgray;
         border-radius: 1%;
-        margin-top: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         background: #ffffff;
         padding: 30px;
     }
-    .containerImg {
+.containerImg {
         margin: 20px;
     }
 
-    img {
-        width: 100%;
+img {
+       
     }
+
+    /* .footer-margin {
+        position: relative;
+        bottom: 0;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        background-color: #f5f5f5;
+        text-align: center; 
+} */
 
 </style>
 
 <body>
+    <main>
 
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(6, 59, 102)">
                 <a class="navbar-brand" href="index.html">Chris Zeigler</a>
@@ -68,43 +85,54 @@ h2 {
                     </column>
                     <column class="col"></column>
                 </row>
-                <row class="row">
-                    <column class="col-md-6">
-                        <div class="containerImg">
-                            <img class="tile" src="cat.jpg" class="image-fluid" alt="cat">
-                            <button type="button" class="btn btn-secondary btn-lg btn-block">Project 1</button>
-                        </div>
-                    </column>
-                    <column class="col-md-6">
-                        <div class="containerImg">
-                                <img class="tile" src="cat.jpg" class="image-fluid" alt="cat">
-                                <button type="button" class="btn btn-secondary btn-lg btn-block">Project 2</button>
-                            </div>
-                    </column>
-                </row>
-                <row class="row">
-                        <column class="col-md-6">
-                            <div class="containerImg">
-                                <img class="tile" src="cat.jpg" class="image-fluid" alt="cat">
-                                <button type="button" class="btn btn-secondary btn-lg btn-block">Project 3</button>
-                            </div>
-                        </column>
-                        <column class="col-md-6">
-                            <div class="containerImg">
-                                    <img class="tile" src="cat.jpg" class="image-fluid" alt="cat">
-                                    <button type="button" class="btn btn-secondary btn-lg btn-block">Project 4</button>
+                <row class="row justify-content-around">
+                    <column class="col-md-4">
+                        <div class="card containerImg">
+                                <img class="card-img-top" src="letstravel.gif" alt="travel">
+                                <div class="card-body">
+                                  <h5 class="card-title">Travel Guide</h5>
+                                  <p class="card-text">Website that utilizes APIs for relevant travel information when visiting abroad. <a href="https://github.com/zigybass/Travel-Guide" target="blank">Code here</a></p>
+                                  <a href="https://zigybass.github.io/Travel-Guide/" target="blank" class="btn btn-primary">Launch</a>
                                 </div>
+                              </div>
+                    </column>
+                    <column class="col-md-4">
+                        <div class="card containerImg">
+                                <img class="card-img-top" src="trivia.jpeg" alt="trivia">
+                                <div class="card-body">
+                                  <h5 class="card-title">Trivia Game</h5>
+                                  <p class="card-text">A trivia game built using timers and dynamic JavaScript. Score resets if users keeps playing. <a href="https://github.com/zigybass/Trivia-Game" target="blank">Code here</a></p>
+                                  <a href="https://zigybass.github.io/Trivia-Game/" target="blank" class="btn btn-primary">Launch</a>
+                                </div>
+                              </div>
+                    </column>
+                </row>
+                <row class="row justify-content-around">
+                        <column class="col-md-4">
+                            <div class="card containerImg">
+                                    <img class="card-img-top" src="amethyst.jpg" alt="trivia">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Crystal Game</h5>
+                                      <p class="card-text">A game that is different each time you play. <a href="https://github.com/zigybass/Crystal-Counter" target="blank">Code here</a></p>
+                                      <a href="https://zigybass.github.io/Crystal-Counter/" target="blank" class="btn btn-primary">Launch</a>
+                                    </div>
+                                  </div>
+                        </column>
+                        <column class="col-md-4">
+                            <div class="card containerImg">
+                                    <img class="card-img-top" src="question.gif" alt="trivia">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Coming Soon</h5>
+                                      <p class="card-text">Another project will be loaded here in the near future.</p>
+                                      <a href="#" class="btn btn-primary">Launch</a>
+                                    </div>
+                                  </div>
                         </column>
                 </row>
-                <row class="row">
-                    <column class="col-md-6">
-                        <div class="containerImg">
-                            <img class="tile" src="cat.jpg" class="image-fluid" alt="cat">
-                            <button type="button" class="btn btn-secondary btn-lg btn-block">Project 5</button>
-                        </div>
-                    <column class="col-md-6"></column>
-                </row>
+                
             </div>
+        </main>
+               
     
 </body>
 </html>
